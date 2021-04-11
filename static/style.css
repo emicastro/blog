@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: 400;
+  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  src: url(fonts/Inter-UI-Regular.woff2) format('woff2'),
+    url(fonts/Inter-UI-Regular.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style: italic;
+  font-weight: 400;
+  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  src: url(fonts/Inter-UI-Italic.woff2) format('woff2'),
+    url(fonts/Inter-UI-Italic.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: 600;
+  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  src: url(fonts/Inter-UI-Medium.woff2) format('woff2'),
+    url(fonts/Inter-UI-Medium.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style: italic;
+  font-weight: 600;
+  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  src: url(fonts/Inter-UI-MediumItalic.woff2) format('woff2'),
+    url(fonts/Inter-UI-MediumItalic.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style: normal;
+  font-weight: 800;
+  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  src: url(fonts/Inter-UI-Bold.woff2) format('woff2'),
+    url(fonts/Inter-UI-Bold.woff) format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter UI';
+  font-style: italic;
+  font-weight: 800;
+  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
+  src: url(fonts/Inter-UI-BoldItalic.woff2) format('woff2'),
+    url(fonts/Inter-UI-BoldItalic.woff) format('woff');
+  font-display: swap;
+}
+
+:root {
+  --light-green: #78d40f;
+  --pale-green: #64A353;
+  --pale-light-green: #82a579ea;
+  --dark-green: #008000;
+}
+
+body {
+  font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
+}
+
+body.dark-theme {
+  --background: #090c15;
+  --background-secondary: #041628;
+  --header: #0d111d;
+  --color: #cbd4d9;
+  --color-secondary: #627d98;
+  --border-color: #6e7b83;
+}
+
+.logo__cursor {
+  background-color: var(--light-green);
+}
+
+.post-cover {
+  margin: 40px 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.post-tags {
+  color: var(--dark-green);
+}
+
+.dark-theme .post-tags {
+  color: var(--light-green);
+}
+
+a.read-more.button {
+  color: var(--dark-green);
+}
+
+.dark-theme a.read-more.button {
+  color: var(--pale-green);
+}
+
+.copyright-extended {
+  font-size: 0.75rem;
+  color: var(--pale-light-green);
+  margin-bottom: 0.75rem;
+}

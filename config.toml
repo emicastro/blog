@@ -30,7 +30,7 @@ paginate = 5
     title = "Hello Friend"
     subtitle = "A simple theme for Hugo"
     keywords = ""
-    copyright = ""
+    copyright = "<span>© 2021-∞ made with 💚  by Emilio Castro.</span> <span>All code <a href=\"https://opensource.org/licenses/MIT\" target=\"_blank\" rel=\"noreferrer\" alt=\"MIT License\">MIT License</a>."
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
