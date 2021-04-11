@@ -3,8 +3,7 @@ title: "Hello Friend"
 path: "/hello"
 date: "2020-10-31"
 author: "Emilio Castro"
-cover: "./hello.jpg"
-useRelativeCover: true
+cover: "img/hello.jpg"
 coverAlt: "Hello Friend"
 excerpt: '"Hello, friend?" That''s lame. Maybe I should give you a name...'
 tags: ["rob____ot", "hello friend"]
@@ -57,4 +56,4 @@ Anyways, please be confident to send me your feedback if you like. I would enjoy
 <br>
 See you in the next post!
 
-![Everything is ok](./mrrobotok.gif)
+![Everything is ok](../../img/mrrobotok.gif)
