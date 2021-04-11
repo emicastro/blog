@@ -29,7 +29,7 @@ Thanks for reading me.<br>
 
 #### The What and the Why's
 
-I started this blog to share my thought about the craft of programming, about what I know and what I'm learning about.
+I started this blog to share my thoughts about the craft of programming, about what I know and what I'm learning about.
 It is written with three main goals in my mind
 
 - Help people which is starting their careers in Software Engineering to grow as enthusiastic, curious and healthy professionals.
@@ -56,4 +56,4 @@ Anyways, please be confident to send me your feedback if you like. I would enjoy
 <br>
 See you in the next post!
 
-![Everything is ok](../../img/mrrobotok.gif)
+{{< figure src="../../img/mrrobotok.gif" alt="Thumbs up image" position="center" style="border-radius: 8px;">}}

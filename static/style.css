@@ -83,6 +83,10 @@ body.dark-theme {
   max-width: 100%;
 }
 
+.post-meta {
+  color: #9EABB3;
+}
+
 .post-tags {
   color: var(--dark-green);
 }
@@ -92,15 +96,20 @@ body.dark-theme {
 }
 
 a.read-more.button {
-  color: var(--dark-green);
+  color: var(--pale-green);
 }
 
-.dark-theme a.read-more.button {
-  color: var(--pale-green);
+.footer {
+  padding-bottom: 20px;
 }
 
 .copyright-extended {
   font-size: 0.75rem;
-  color: var(--pale-light-green);
   margin-bottom: 0.75rem;
+  color:#9EABB3;
+}
+
+.copyright-extended__hugo-logo {
+  display: inline;
+  vertical-align: middle;
 }
