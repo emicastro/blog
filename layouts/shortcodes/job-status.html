@@ -1,0 +1,16 @@
+<div class="job-status-card">
+  <h1 class="job-status-card__title">Status</h1>
+  <span
+    >Working as a {{ .Get "job" }} at 
+    {{if .Get "companyName"}}
+      <span>{{ .Get "companyName"}} </span>
+    {{ end }}
+    <a href={{ .Get "companyUrl"}} target="_blank">
+      <img
+        class="company-logo"
+        src="/img/logos/company-logo.png"
+        alt={{ .Get "companyLogoAlt"}}
+      />
+    </a>
+  </span>
+</div>

@@ -17,6 +17,4 @@ I hope you enjoy the blog and maybe you and me could learn something in the proc
 
 {{< know-more >}}
 
-#### STATUS
-
-Working as a Software Engineer at [Mercado Libre](https://github.com/mercadolibre).
+{{< job-status job="Software Engineer" companyName="Mercado Libre" companyLogoAlt="Mercado Libre's Logo" companyUrl="https://github.com/mercadolibre" >}}

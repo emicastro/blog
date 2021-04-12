@@ -198,3 +198,23 @@ a.read-more.button {
   transform: translate(-50%, -50%) scale(0);
   transition: transform 0s;
 }
+
+.job-status-card {
+  font-size: medium;
+  background-color: var(--background-secondary);
+  border-radius: 1rem;
+  padding: 20px;
+  margin: 40px 20px;
+}
+
+.job-status-card__title {
+  font-size: 1.325rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.job-status-card .company-logo {
+  height: 28px;
+  display: inline;
+  vertical-align: middle;
+}
