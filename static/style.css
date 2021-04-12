@@ -58,6 +58,9 @@
   --pale-green: #64A353;
   --pale-light-green: #82a579ea;
   --dark-green: #008000;
+  --frame-bg-color: #FAFAFA;
+  --frame-box-shadow-start: #00000015;
+  --frame-box-shadow-end: #00000012;
 }
 
 body {
@@ -71,6 +74,9 @@ body.dark-theme {
   --color: #cbd4d9;
   --color-secondary: #627d98;
   --border-color: #6e7b83;
+  --frame-bg-color: #0d111d;
+  --frame-box-shadow-start: #FFFFFF15;
+  --frame-box-shadow-end: #FFFFFF12;
 }
 
 .logo__cursor {
@@ -81,9 +87,9 @@ body.dark-theme {
   font-size: 0.9rem;
   line-height: 1rem;
   width: 800px;
-  background-color:#FAFAFA;
+  background-color: var(--frame-bg-color);
   border: none;
-  box-shadow: 0 4px 8px 0 #00000015, 0 6px 20px 0 #00000012;
+  box-shadow: 0 4px 8px 0 var(--frame-box-shadow-start), 0 6px 20px 0 var(--frame-box-shadow-end);
 }
 
 .post-cover {
