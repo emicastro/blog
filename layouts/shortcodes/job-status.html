@@ -1,15 +1,15 @@
 <div class="job-status-card">
   <h1 class="job-status-card__title">Status</h1>
   <span
-    >Working as a {{ .Get "job" }} at 
-    {{if .Get "companyName"}}
-      <span>{{ .Get "companyName"}} </span>
+    >Working as a {{ .Site.Params.jobPosition }} at 
+    {{ if .Site.Params.companyName}}
+      <span>{{ .Site.Params.companyName }} </span>
     {{ end }}
-    <a href={{ .Get "companyUrl"}} target="_blank">
+    <a href={{ .Site.Params.companyUrl }} target="_blank">
       <img
         class="company-logo"
-        src="/img/logos/company-logo.png"
-        alt={{ .Get "companyLogoAlt"}}
+        src={{ .Site.Params.companyLogo }}
+        alt={{ .Site.Params.companyLogoAlt}}
       />
     </a>
   </span>
