@@ -12,7 +12,7 @@ paginate = 5
   defaultTheme = "light"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
+  showMenuItems = 3
 
   # Show reading time in minutes for posts
   showReadingTime = true
@@ -30,7 +30,7 @@ paginate = 5
     title = "Hello Friend"
     subtitle = "A Blog by Emi Castro"
     keywords = ["blog", "technology", "programming", "software engineering"]
-    copyright = "<span>© 2021-∞ made with 💚  by Emilio Castro.</span><span>Powered by <a href=\"https://gohugo.io/\" target=\"_blank\"><img class=\"copyright-extended__hugo-logo\" src=\"/img/hugo-logo.svg\" alt=\"Hugo Logo\" height=\"18\"/></a></span>"
+    copyright = "<span>© 2021-∞ made with 💚  by Emilio Castro.</span><span>Powered by <a href=\"https://gohugo.io/\" target=\"_blank\"><img class=\"copyright-extended__hugo-logo\" src=\"/img/logos/hugo-logo.svg\" alt=\"Hugo Logo\" height=\"18\"/></a></span>"
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -57,6 +57,10 @@ paginate = 5
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "blog"
+        name = "Blog"
+        url = "/"
+      [[languages.en.menu.main]]
+        identifier = "archive"
+        name = "Archive"
+        url = "/archive"
