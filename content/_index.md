@@ -15,8 +15,8 @@ Hey! How you doing? Ready to read some nerdy engineering thoughts? Let's do this
 
 I hope you enjoy the blog and maybe you and me could learn something in the process.
 
-You can know more about me [here](about) or see my portfolio [here](/)
+{{< know-more >}}
 
-## Status
+#### STATUS
 
 Working as a Software Engineer at [Mercado Libre](https://github.com/mercadolibre).

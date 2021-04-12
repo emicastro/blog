@@ -59,8 +59,12 @@
   --pale-light-green: #82a579ea;
   --dark-green: #008000;
   --frame-bg-color: #FAFAFA;
-  --frame-box-shadow-start: #00000015;
-  --frame-box-shadow-end: #00000012;
+  --frame-box-shadow-start: #00000033;
+  --frame-box-shadow-end: #00000030;
+  --button-shadow-start: #00000033;
+  --button-shadow-mid: #00000024;
+  --button-shadow-end: #00000030;
+  --button-shadow-end-activated: #0000001f;
 }
 
 body {
@@ -75,8 +79,12 @@ body.dark-theme {
   --color-secondary: #627d98;
   --border-color: #6e7b83;
   --frame-bg-color: #0d111d;
-  --frame-box-shadow-start: #FFFFFF15;
-  --frame-box-shadow-end: #FFFFFF12;
+  --frame-box-shadow-start: #FFFFFF33;
+  --frame-box-shadow-end: #FFFFFF30;
+  --button-shadow-start: #FFFFFF33;
+  --button-shadow-mid: #FFFFFF24;
+  --button-shadow-end: #FFFFFF30;
+  --button-shadow-end-activated: #FFFFFF1f;
 }
 
 .logo__cursor {
@@ -127,4 +135,66 @@ a.read-more.button {
 .copyright-extended__hugo-logo {
   display: inline;
   vertical-align: middle;
+}
+
+.know-more {
+  color: var(--color);
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 20% 25% auto 25% 20%;
+  grid-template-rows: 50px 30px;
+  grid-auto-flow: row;
+}
+
+.know-more .button {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--color);
+  max-width: 100%;
+}
+
+.know-more--about {
+  grid-column-start: 2;
+}
+
+.know-more--projects {
+  grid-column-start: 4;
+}
+
+.know-more--projects.button {
+  grid-row-start: 1;
+}
+
+.button {
+  box-shadow: 0 1px 4px 0 var(--button-shadow-start), 0 1.2px 5px 0 var(--button-shadow-end);
+  transition: background-color .4s;
+}
+
+.button:hover, .button:focus {
+  background-color: var(--pale-green);
+  color: #FAFAFA;
+  box-shadow: 0 2px 4px -1px var(--button-shadow-start), 0 4px 5px 0 var(--button-shadow-mid), 0 1px 10px 0 var(--button-shadow-end-activated);
+}
+
+.button:hover::before {
+  opacity: 0.08;
+}
+
+.button:focus::before {
+  opacity: 0.24;
+}
+
+.button:hover:focus::before {
+  opacity: 0.3;
+}
+
+/* Active */
+.button:active {
+  box-shadow: 0 5px 5px -3px var(--button-shadow-start), 0 8px 10px 1px var(--button-shadow-mid), 0 3px 14px 2px var(--button-shadow-end-activated);
+}
+
+.button:active::after {
+  opacity: 0.32;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0s;
 }
