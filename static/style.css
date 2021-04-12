@@ -204,7 +204,7 @@ a.read-more.button {
   background-color: var(--background-secondary);
   border-radius: 1rem;
   padding: 20px;
-  margin: 40px 20px;
+  margin: 40px 20px 20px;
 }
 
 .job-status-card__title {
@@ -217,4 +217,21 @@ a.read-more.button {
   height: 28px;
   display: inline;
   vertical-align: middle;
+}
+
+.social-networks__list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.social-networks__item {
+  list-style: none;
+}
+
+.social-networks__logo {
+  height: 24px;
+  vertical-align: middle;
+  display: inline;
 }

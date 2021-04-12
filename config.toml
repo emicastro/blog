@@ -25,6 +25,11 @@ paginate = 5
   #(default is Description or Summary metadata in the front matter)
   # rssFullText = true
 
+  # Social Networks Links
+  githubLink = "https://github.com/emicastro"
+  twitterLink = "https://twitter.com/emicastroo"
+  linkedinLink = "https://www.linkedin.com/in/emicastro/?locale=en_US"
+
 [languages]
   [languages.en]
     title = "Hello Friend"
