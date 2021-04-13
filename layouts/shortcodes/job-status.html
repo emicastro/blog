@@ -1,16 +1,20 @@
 <div class="job-status-card">
-  <h1 class="job-status-card__title">Status</h1>
-  <span
-    >Working as a {{ .Site.Params.jobPosition }} at 
-    {{ if .Site.Params.companyName}}
-      <span>{{ .Site.Params.companyName }} </span>
-    {{ end }}
-    <a href={{ .Site.Params.companyUrl }} target="_blank">
-      <img
-        class="company-logo"
-        src={{ .Site.Params.companyLogo }}
-        alt={{ .Site.Params.companyLogoAlt}}
-      />
-    </a>
-  </span>
+  <h1 class="job-status-card__title">Currently</h1>
+  {{ if .Site.Params.customMessage }}
+    <span>{{ .Site.Params.customMessage }}</span>
+  {{ else }}
+    <span
+      >Working as a <b>{{ .Site.Params.jobPosition }}</b> at 
+      {{ if .Site.Params.companyName}}
+        <span>{{ .Site.Params.companyName }} </span>
+      {{ end }}
+      <a href={{ .Site.Params.companyUrl }} target="_blank">
+        <img
+          class="company-logo"
+          src={{ .Site.Params.companyLogo }}
+          alt={{ .Site.Params.companyLogoAlt}}
+        />
+      </a>
+    </span>
+  {{ end }}
 </div>

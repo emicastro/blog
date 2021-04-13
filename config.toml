@@ -27,10 +27,11 @@ paginate = 5
 
   # Job status information
   jobPosition = "Software Engineer"
-  company = "Mercado Libre"
+  companyName = "Mercado Libre"
   companyURL = "https://github.com/mercadolibre"
   companyLogoAlt = "Mercado Libre's Logo"
   companyLogo = "/img/logos/company-logo.png"
+  # customMessage = "Taking a sabbatic in Greece 🏝"
 
   # Social Networks Links
   githubLink = "https://github.com/emicastro"
