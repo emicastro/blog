@@ -39,17 +39,17 @@ It is written with three main goals in my mind
 - Connect with awesome people who is really passionate about Programming, Science and optimistic about the Future we can build.
 
 <br>
-I'm convinced that teaching is a great way to achieve mastery in any domain. 
+I'm convinced that teaching is a great way to achieve mastery in any domain.
 
 In order to provide valuable content I must clarify my own understanding and find creative ways to explain things to make them enjoyable. It's a huge challenge that's worth facing.
 
-Gonna make it, can't give up now.
+Let's do this!
 
 <br>
 
 #### The Feedback Loop
 
-I expect you enjoy the content. In the best case scenario it will trigger some useful idea which you can apply to improve your daily life.
+I expect you enjoy the content. In the best case scenario it will trigger some useful idea which you can apply to improve your daily life as a Software Engineer.
 
 Anyways, please be confident to send me your feedback if you like. I would enjoy to talk about the craft of programming in <a href="https://twitter.com/emicastroo" target="_blank" rel="noreferrer" alt="Emilio Castro's Twitter Account">**Twitter**</a> or by [**email**](mailto:hello@emicastro.com "Send me an email") if you prefer.
 
